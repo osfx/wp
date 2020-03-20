@@ -1,0 +1,14 @@
+{
+  "require": {
+    "php": "7.1.23",
+    "ext-mbstring" : "*",
+    "ext-gd": "*",
+    "ext-curl": "7.1.23",
+    "ext-exif": "7.1.23"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "chmod -R 777 wp-content"
+    ]
+  }
+}
